@@ -17,11 +17,15 @@ function getModalStyle() {
 
 const useStyles = makeStyles(theme => ({
     paper: {
-      position: 'absolute',
-      width: 450,
-      backgroundColor: theme.palette.background.paper,
-      boxShadow: theme.shadows[5],
-      padding: theme.spacing(2, 4, 3),
+        position: 'absolute',
+        width: 300,
+        backgroundColor: theme.palette.background.paper,
+        boxShadow: theme.shadows[5],
+        padding: theme.spacing(2, 4, 3),
+        overflow: 'scroll',
+        height: '100%',
+        maxHeight: 500,
+        display: 'block'
     },
 }));
 
